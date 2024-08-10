@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seçenekler</title>
+    <style>
+        body {
+            background: url('https://iili.io/dlabzGf.md.jpg') no-repeat center center fixed, 
+                        url('https://iili.io/dldNATQ.md.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 60%;
+            gap: 20px;
+        }
+
+        .option {
+            background-color: #ffffff;
+            border: 2px solid #000000;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.2em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+            flex: 1 1 calc(50% - 20px);
+        }
+
+        .option:hover {
+            background-color: #f0f0f0;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="option" onclick="location.href='sayfa3a.html'">کەلیمێن توركي</div>
+        <div class="option" onclick="location.href='sayfa3b.html'">ژمارێن توركي</div>
+        <div class="option" onclick="location.href='sayfa3c.html'">پیتێن توركي</div>
+        <div class="option" onclick="location.href='sayfa3d.html'">پەیفێن توركي</div>
+    </div>
+</body>
+</html>
